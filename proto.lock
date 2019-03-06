@@ -1327,6 +1327,11 @@
                 "type": "google.protobuf.Duration"
               },
               {
+                "id": 21,
+                "name": "envoy_metrics_sink_name",
+                "type": "string"
+              },
+              {
                 "id": 10,
                 "name": "statsd_udp_address",
                 "type": "string"

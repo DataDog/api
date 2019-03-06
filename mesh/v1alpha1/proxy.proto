@@ -124,6 +124,9 @@ message ProxyConfig {
   // Connection timeout used by Envoy for supporting services. (MUST BE >=1ms)
   google.protobuf.Duration connect_timeout = 9;
 
+  // The name of the stats sink to configure.
+  string envoy_metrics_sink_name = 21;
+
   // IP Address and Port of a statsd UDP listener (e.g. _10.75.241.127:9125_).
   string statsd_udp_address = 10;
 
